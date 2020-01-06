@@ -1,0 +1,157 @@
+package samples;
+
+import songs.Song;
+
+import static music.CreatingMusic.*;
+import static music.Util.*;
+
+public class Chopin_Nocturne_Opus_9_Number_2 extends Song {
+
+	@Override
+	public void measures() {
+		// TODO Auto-generated method stub
+		
+		factor = 300;
+		
+		setTempo(120*factor);
+		
+		key = "Eb";
+		
+		measure(0);
+		
+		addNote("B5i",A,T);
+		addRest("i",B);
+		
+		measure(1);
+		
+		tie(A,T,"G6q.","G6i");
+		addNotes("F6i G6i F6q. E6q B5i",T);
+		addNotes("E3i G4i+E5i B4i+C5i+E5i E4i A4i+D5i Cb5i+D5i+A5i E3i G4i+E5i B4i+E5i+G5i E3i G4i+E5i B4i+E5i+G5i",B);
+		
+		measure(2);
+		
+		addNotes("G6q C6i C7q G6i B6q. A6q G6i",T);
+		
+		addNotes("C3i G4i+En5i B4i+E5i+G5i B3i G4i+E5i C5i+E5i+B5i F3i F4i+Db4i B4i+D5i+E5i F3i F4i+C5i A4i+C5i+F5i",B);
+		
+		measure(3);
+		
+		addNotes("F6q. G6q D6i E6q. C6q.",T);
+		
+		addNotes("B3i F4i+Dn5i B4i+D5i+A5i Bn3i G4i+F5i D5i+F5i+G5i C4i G4i+E5i C5i+E5i+G5i An3i Gb4i+E5i C5i+E5i+Gb5i",B);
+		
+		measure(4);
+		
+		addNotes("B5i D7i C7i B6s A6s G6s A6s C6s D6s E6q.",T);
+		addRest("q",T);
+		addNote("B5i",A,T);
+		
+		addNotes("B3i F4i+E5i B4i+E5i+Ab5i B2i F4i+D5i B4i+Ab5i E3i G4i+E5i B4i+E5i+G5i E4i G4i+E5i B4i+E5i+G5i",B);
+		
+		measure(5);
+		
+		addNotes("G6q. F6s G6s F6s En6s F6s G6s F6i",T);
+		tie(A,T,"F6q","F6s");
+		addNotes("F6s E6s D6s E6s F6s",T);
+		
+		addNotes("E4i G4i+E5i B4i+E5i+G5i E4i A4i+D5i Cb5i+D5i+A5i E4i G4i+E5i B4i+E5i+G5i D4i G4i+E5i B4i+E5i+G5i",B);
+		 
+	    measure(6);
+	    
+	    addNotes("G6s Bn5s C6s Db6s C6s F6s En6s A6s G6s Db7s C7s G6s Bb6q. A6q G6i",T);
+	    
+	    addNotes("C4i G4i+En5i B4i+E5i+G5i C4i G4i+E5i C5i+E5i+B5i F3i F4i+Db5i B4i+Dn5i+E5i F3i F4i+C5i A4i+C5i+F5i",B);
+	    		
+	    measure(7);
+	    
+		addNotes("F6q. G6i G6i D6i Eb6q. C6q.",T);
+		
+		addNotes("B3i F4i+Dn5i B4i+D5i+A5i Bn3i G4i+F5i D5i+F5i+G5i C4i G4i+E5i C5i+E5i+G5i An3i Gb4i+E5i C5i+E5i+G5i",B);
+				
+		measure(8);
+		
+		addNotes("B5i D7i C7i B6s A6s G6s A6s C6s D6s",T);
+		tie(A,T,"E6q.","E6i");
+		addNotes("D6i E6i",T);
+		
+		addNotes("B3i F4i+E5i B4i+E5i+Ab5i B2i F4i+D5i B4i+Ab5i E3i G4i+E5i B4i+E5i+G5i E4i G4i+E5i B4i+E5i+G5i",B);
+		
+        measure(9);
+        
+        addNotes("F6q. G6q F6i F6q. C6q.",T);
+        
+        addNotes("B3i F4i+D5i B4i+D5i+F5i B3i F4i+D5i B4i+D5i+F5i An3i F4i+C5i C5i+F5i A3i F4i+C5i C5i+F5i",B);
+        
+        measure(10);    
+        
+        addNotes("E6i E6i E6i E6i D6s E6s F6s. E6t E6q. B5q.",T);
+        
+        addNotes("A3i E4i+C5i A4i+C5i+E5i A2i E4i+Cb5i A4i+Cb5i+E5i E3i G4i+E5i B4i+E5i+G5i E4i G4i+E5i B4i+E5i+G5i",B);
+        
+        measure(11);
+        
+        addNotes("B6q. An6q G6i An5q.+F6q. B5q.+D6q.",T);
+        
+        addNotes("En3i En4i+Db5i B4i+Db5i+G5i E3i E4i+C5i B4i+C5i+G5i F3i F4i+Eb5i C5i+E5i+F5i G3i G4i+Dn5i B4i+D5i+G5i",B);
+        
+        measure(12);
+        
+        addNotes("G5q.+E6q. An5i+D6i A5i+C6i A5i+D6i F5i+B5i F#5i+Bn5i En5i+B5i E5i+Bb5i+A5i F5i+A5i+C6i Ab5i+D6i",T);
+        
+        addNotes("C2i G4i+E5i C5i+E5i+G5i F3i F4i+E5i C5i+E5i+F5i B4i+D5i An4i+D#5i G#4i G4i F4i+C5i+Eb5i B4i+F5i",B);
+        
+        measure(13);
+        
+        addNotes("G6q An5s B5s Cb6s B5s C#6s D6s G6s. F6t F6q E6i E6s F6s E6s D6s E6s F6s",T);
+        
+        addNotes("E3i G4i+E5i B4i+E5i+G5i E4i A4i+D5i B4i+D5i+A5i E4i G4i+E5i B4i+G5i D4i G4i+E5i B4i+E5i+G5i",B);
+        
+        measure(14);
+		
+        addNotes("G6s Bn5s C6s Db6s C6s F6s En6s A6s G6s D7s C7s G6s Bb6q. A6q G6i",T);
+        
+        addNotes("C4i G4i+En5i B4i+E5i+G5i C4i G4i+E5i C5i+E5i+B5i F3i F4i+Db5i B4i+Dn5i+E5i F3i F4i+C5i A4i+C5i+F5i",B);
+        
+        measure(15);
+        
+        addNotes("F6q. G6i G6i D6i Eb6q. C6q.",T);
+        
+        addNotes("B3i F4i+Dn5i B4i+D5i+A5i Bn3i G4i+F5i D5i+F5i+G5i C4i G4i+E5i C5i+E5i+G5i An3i Gb4i+E5i C5i+E5i+Gb5i",B);
+        
+        measure(16);
+        
+        addNotes("F6q. G6i G6i D6i Eb6q. C6q.",T);
+        
+        addNotes("B3i F4i+Dn5i B4i+D5i+A5i Bn3i G4i+F5i D5i+F5i+G5i C4i G4i+E5i C5i+E5i+G5i An3i Gb4i+E5i C5i+E5i+Gb5i",B);
+        
+        measure(17);
+        
+        addNotes("B5i D7i C#7i Cn7t Bn6t Bb6t An6t Ab6t F6t D6t Cb6t B5t D6t",T);
+        
+        tripletFactor = 2;
+        
+        addNotes("G6t F6t E6t",T);
+        
+        tripletFactor = 1;
+        
+        tie(A,T,"E6q.","E6i");
+        
+        addNotes("D6i E6i",T);
+        
+        addNotes("B3i F4i+E5i B4i+E5i+A5i C3i F4i+D5i B4i+D5i+A5i E3i G4i+E5i B4i+G5i E4i G4i+E5i B4i+G5i",B);
+        
+        measure(18);
+        
+        addNotes("F6q. G6i F6i F6q. C6q.",T);
+        
+        addNotes("B3i F4i+D5i B4i+D5i+F5i B3i F4i+D5i B4i+D5i+F5i An3i F4i+C5i C5i+F5i A3i F4i+C5i C5i+F5i",B);
+        
+        measure(19);
+        
+        
+        
+		
+
+	}
+
+}
